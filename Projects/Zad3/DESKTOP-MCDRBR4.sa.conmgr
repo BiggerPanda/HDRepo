@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-MCDRBR4.sa"
+  DTS:DTSID="{C1C50493-124F-487D-8ED7-C58F90319911}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-MCDRBR4;Initial Catalog=AdventureWorksDW2019;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Zad3-{C1C50493-124F-487D-8ED7-C58F90319911}DESKTOP-MCDRBR4.sa;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
