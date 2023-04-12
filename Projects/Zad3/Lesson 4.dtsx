@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Lesson 2"
   DTS:PackageType="5"
-  DTS:VersionBuild="19"
-  DTS:VersionGUID="{4CC3DE98-FAE4-4952-A7B7-87F7A9C77683}">
+  DTS:VersionBuild="23"
+  DTS:VersionGUID="{1BDD5A65-1708-4B37-810A-30BA4615A87E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Kuba\Desktop\BigData\Projects\Zad3\ErrorOutput.txt">
+          DTS:ConnectionString="D:\_BIBLIOTEKA\STUDIA\_3 SEMESTR MGR\HurtownieDanych\HDRepo\Projects\Zad3\ErrorOutput.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -37,7 +37,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="AverageRate"
-              DTS:DTSID="{0CA8AFD3-9811-4C1D-840C-0A45F5DC1D21}"
+              DTS:DTSID="{446C273A-43A0-43E9-BA94-4682A4D64BB3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -46,7 +46,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyID"
-              DTS:DTSID="{0D5BF9CE-6AED-43BE-A678-397CD6E95EF0}"
+              DTS:DTSID="{1410F770-2463-4F78-A844-B54F910C2E37}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -54,7 +54,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyDate"
-              DTS:DTSID="{8A4CE4B6-7740-4B31-AC16-E7A3679DC140}"
+              DTS:DTSID="{C9D61168-3F4A-4C0F-95DF-CD57EF61BA7A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -62,7 +62,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="EndOfDayRate"
-              DTS:DTSID="{B10BCF29-4A1E-471E-9927-DC512F35DEC3}"
+              DTS:DTSID="{B2D3D60F-5265-4782-9F46-944E46699521}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -71,7 +71,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 4"
-              DTS:DTSID="{5CFAE285-DC32-4804-8DE5-6778B64DF461}"
+              DTS:DTSID="{0624F5F7-D76C-4F57-BB8C-7D07FECBDE56}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -80,7 +80,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 5"
-              DTS:DTSID="{EBBDAC88-FEEF-4F0C-9F91-EA1C6FA053AB}"
+              DTS:DTSID="{85D99C56-C668-4AC7-AF4A-66A067A8EAEE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -89,7 +89,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 6"
-              DTS:DTSID="{1EA8267D-A338-451C-A076-68047F3C1FA4}"
+              DTS:DTSID="{6B9ADDC1-C53B-450E-8DCA-922BD2622097}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -98,7 +98,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 7"
-              DTS:DTSID="{AD3589EB-9248-4312-ACE9-510242BB4A43}"
+              DTS:DTSID="{8CBE8B02-B7DE-48E3-8FE6-401853C7C2A5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -107,7 +107,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 8"
-              DTS:DTSID="{A56FAC39-E31B-45D0-8CCB-70C32B2BB794}"
+              DTS:DTSID="{AAB60660-6338-4E37-8A2A-ED478FE5ED8D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -116,7 +116,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 9"
-              DTS:DTSID="{D3FC7AF9-3FCF-4BCC-991F-C4FF1EDD91AD}"
+              DTS:DTSID="{7A2F1783-428F-4521-B819-50FEAEC6801C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -125,7 +125,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 10"
-              DTS:DTSID="{40C0946F-C223-4B99-BAF7-26F875F45E45}"
+              DTS:DTSID="{3BC2029D-589A-4A2D-AC23-702249AA08AB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -134,7 +134,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 11"
-              DTS:DTSID="{A4F79C23-367D-48D2-8623-4C35A5999D58}"
+              DTS:DTSID="{E5325F82-0197-4901-A7C6-CEC851EEA613}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -143,7 +143,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 12"
-              DTS:DTSID="{A09E62E5-D781-4495-83DA-57BFFDF9F30F}"
+              DTS:DTSID="{D7B8DC04-5DEA-46C6-BF3A-DB909128E21C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -152,7 +152,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 13"
-              DTS:DTSID="{070FC7DC-2D51-4CFB-8144-1B1171905783}"
+              DTS:DTSID="{DD3E03BF-4829-40F1-8227-DF681FE53EE3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -161,7 +161,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 14"
-              DTS:DTSID="{FE254754-32B7-4C2D-8E68-571800F1B5F6}"
+              DTS:DTSID="{2F15972F-20EF-4191-8CED-1040581ED508}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -170,7 +170,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 15"
-              DTS:DTSID="{D820A3D1-8D52-4826-9512-48EFC0CFABAF}"
+              DTS:DTSID="{0B57B552-F3A5-4358-B926-31B4C9FCB293}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -179,7 +179,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 16"
-              DTS:DTSID="{681B72C0-66C5-4AF1-ADA3-850FA0177989}"
+              DTS:DTSID="{00CE080A-0528-4832-B68B-5FA310348343}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -188,7 +188,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 17"
-              DTS:DTSID="{E853EE0A-0F56-4755-8D44-AF3729D640C9}"
+              DTS:DTSID="{03C78E87-F655-4C47-866D-04E224883869}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -197,7 +197,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 18"
-              DTS:DTSID="{310597E8-6B1D-4E34-A9C5-DA379ABE1ED9}"
+              DTS:DTSID="{7CE81159-D1B7-4F94-A6A3-22D6EE699AFC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -206,7 +206,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 19"
-              DTS:DTSID="{88BA061D-5499-4CBC-B272-E07849037369}"
+              DTS:DTSID="{472122A6-3009-4ECC-8FCC-365A568172D8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -214,7 +214,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{0F71398A-8B25-481C-94A2-56B40189BB69}"
+              DTS:DTSID="{6E94678F-E220-41FF-9DB1-D002B4789D34}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -222,7 +222,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{659CD3A2-432E-4C6E-A49B-196DB11353F7}"
+              DTS:DTSID="{AE2C4A7D-D2EB-4F1C-A858-F4083B66B37D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -231,7 +231,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorDescription"
-              DTS:DTSID="{631D1C92-19AA-4466-832C-4D06A407B01E}"
+              DTS:DTSID="{4DB0C7CB-DED7-4943-BDA3-28A3E37091CC}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -442,7 +442,7 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:FileUsageType="1"
-          DTS:ConnectionString="C:\Users\Kuba\Desktop\BigData\Projects\Zad3\LogFileLesson3" />
+          DTS:ConnectionString="D:\_BIBLIOTEKA\STUDIA\_3 SEMESTR MGR\HurtownieDanych\HDRepo\Projects\Zad3\LogFileLesson3" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -512,7 +512,7 @@ WHERE        (CurrencyAlternateKey IN ('ARS', 'AUD', 'BRL', 'CAD', 'CNY', 'DEM',
         <DTS:ObjectData>
           <ForEachFileEnumeratorProperties>
             <FEFEProperty
-              Folder="C:\Users\Kuba\Downloads\Creating a Simple ETL Package\Sample Data" />
+              Folder="D:\_BIBLIOTEKA\STUDIA\_3 SEMESTR MGR\HurtownieDanych\Lab3\Creating a Simple ETL Package\Sample Data" />
             <FEFEProperty
               FileSpec="Currency_*.txt" />
             <FEFEProperty
@@ -2844,134 +2844,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                           externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[EndOfDayRate]"
                           lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[EndOfDayRate]" />
                         <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 4]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 4"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 4]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 4]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 5]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 5"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 5]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 5]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 6]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 6"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 6]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 6]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 7]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 7"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 7]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 7]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 8]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 8"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 8]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 8]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 9]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 9"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 9]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 9]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 10]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 10"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 10]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 10]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 11]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 11"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 11]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 11]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 12]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 12"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 12]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 12]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 13]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 13"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 13]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 13]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 14]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 14"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 14]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 14]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 15]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 15"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 15]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 15]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 16]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 16"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 16]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 16]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 17]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 17"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 17]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 17]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 18]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 18"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 18]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 18]" />
-                        <inputColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Column 19]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 19"
-                          externalMetadataColumnId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 19]"
-                          lineageId="Package\Foreach File in Folder\TestTask\Flat File Source.Outputs[Flat File Source Output].Columns[Column 19]" />
-                        <inputColumn
                           refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CurrencyKey]"
                           cachedDataType="i4"
                           cachedName="CurrencyKey"
@@ -2993,7 +2865,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                         <externalMetadataColumn
                           refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CurrencyID]"
                           dataType="wstr"
-                          length="50"
+                          length="3"
                           name="CurrencyID" />
                         <externalMetadataColumn
                           refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CurrencyDate]"
@@ -3003,102 +2875,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                           refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[EndOfDayRate]"
                           dataType="r4"
                           name="EndOfDayRate" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 4]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 4" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 5]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 5" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 6]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 6" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 7]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 7" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 8]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 8" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 9]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 9" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 10]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 10" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 11]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 11" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 12]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 12" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 13]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 13" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 14]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 14" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 15]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 15" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 16]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 16" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 17]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 17" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 18]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 18" />
-                        <externalMetadataColumn
-                          refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Column 19]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          name="Column 19" />
                         <externalMetadataColumn
                           refId="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CurrencyKey]"
                           dataType="i4"
@@ -3170,8 +2946,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       <DTS:ForEachVariableMappings>
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{9390CC6C-953E-4301-B762-44821B611300}"
-          DTS:ObjectName="{9390CC6C-953E-4301-B762-44821B611300}"
+          DTS:DTSID="{AD5AC06A-1B11-42A3-8C12-2FF01E9D8F65}"
+          DTS:ObjectName="{AD5AC06A-1B11-42A3-8C12-2FF01E9D8F65}"
           DTS:ValueIndex="0"
           DTS:VariableName="User::varFileName" />
       </DTS:ForEachVariableMappings>
@@ -3190,14 +2966,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="154,59"
+          Size="153.6,59.2"
           Id="Package\Foreach File in Folder\TestTask"
           TopLeft="23,15" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="205,129"
-          Size="205,172"
+          PanelSize="204.8,128.8"
+          Size="204.8,172"
           Id="Package\Foreach File in Folder"
           TopLeft="244,379" />
       </GraphLayout>
@@ -3209,130 +2985,29 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="218,42"
-          Id="Package\Foreach File in Folder\TestTask\DateKey"
-          TopLeft="230,463.666666666667" />
-        <NodeLayout
-          Size="218,42"
+          Size="217.6,41.6"
           Id="Package\Foreach File in Folder\TestTask\Flat File Source"
           TopLeft="230,253" />
         <NodeLayout
-          Size="218,42"
+          Size="217.6,41.6"
+          Id="Package\Foreach File in Folder\TestTask\DateKey"
+          TopLeft="232.499999863406,465.399999987947" />
+        <NodeLayout
+          Size="182.4,41.6"
+          Id="Package\Foreach File in Folder\TestTask\Get Error Description"
+          TopLeft="588,361" />
+        <NodeLayout
+          Size="217.6,41.6"
           Id="Package\Foreach File in Folder\TestTask\CurrencyKey"
           TopLeft="230,358.333333333333" />
         <NodeLayout
-          Size="218,42"
-          Id="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination"
-          TopLeft="230,569" />
-        <EdgeLayout
-          Id="Package\Foreach File in Folder\TestTask.Paths[Flat File Source Output]"
-          TopLeft="339,295">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,63.3333333333333"
-              Start="0,0"
-              End="0,55.8333333333333">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,55.8333333333333" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Foreach File in Folder\TestTask.Paths[Lookup Match Output1]"
-          TopLeft="339,505.666666666667">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,63.3333333333334"
-              Start="0,0"
-              End="0,55.8333333333334">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,55.8333333333334" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,22.1119791666667,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Foreach File in Folder\TestTask.Paths[Lookup Match Output]"
-          TopLeft="339,400.333333333333">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,63.3333333333333"
-              Start="0,0"
-              End="0,55.8333333333333">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,55.8333333333333" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,22.1119791666667,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <AnnotationLayout
-          Text="The data flow extracts data from a file, looks up values in the CurrencyKey column in the DimCurrency table and the DateKey column in the DimDate table, and writes the data to the NewFactCurrencyRate table.&#xA;&#xA;To wrap the text in the annotation box, place the cursor where you want to start a new line and press Enter.&#xA;&#xA;If you don't add text to the annotation box, the box disappears when you click outside it. Because of this behavior, if you want to paste text in the annotation box then copy the text to the clipboard before selecting Add Annotation."
-          ParentId="Package\Foreach File in Folder\TestTask"
-          FontInfo="{assembly:Null}"
-          Size="1246,104"
-          Id="11fa60e4-672e-49f3-88ca-beb4cbcbdce1"
-          TopLeft="14,81" />
-        <NodeLayout
-          Size="182,42"
-          Id="Package\Foreach File in Folder\TestTask\Get Error Description"
-          TopLeft="588,361" />
-        <EdgeLayout
-          Id="Package\Foreach File in Folder\TestTask.Paths[Lookup Error Output]"
-          TopLeft="448,380.666666666667">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="140,0"
-              Start="0,0"
-              End="132.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="132.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="20.38361328125,5,91.7327734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="140,42"
+          Size="140,41.6"
           Id="Package\Foreach File in Folder\TestTask\Failed Rows"
           TopLeft="593,533" />
+        <NodeLayout
+          Size="217.6,41.6"
+          Id="Package\Foreach File in Folder\TestTask\Sample OLE DB Destination"
+          TopLeft="230,569" />
         <EdgeLayout
           Id="Package\Foreach File in Folder\TestTask.Paths[Output 0]"
           TopLeft="679,403">
@@ -3367,6 +3042,107 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Foreach File in Folder\TestTask.Paths[Lookup Match Output1]"
+          TopLeft="340.049999931703,506.999999987947">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,62.000000012053"
+              Start="0,0"
+              End="0,54.500000012053">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,54.500000012053" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,21.4453125060265,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Foreach File in Folder\TestTask.Paths[Lookup Match Output]"
+          TopLeft="340.049999931703,399.933333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,65.466666654614"
+              Start="0,0"
+              End="0,57.966666654614">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,57.966666654614" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,23.178645827307,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Foreach File in Folder\TestTask.Paths[Lookup Error Output]"
+          TopLeft="448,380.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="140,0"
+              Start="0,0"
+              End="132.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="132.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="20.38361328125,5,91.7327734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Foreach File in Folder\TestTask.Paths[Flat File Source Output]"
+          TopLeft="339,295">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,63.3333333333333"
+              Start="0,0"
+              End="0,55.8333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,55.8333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <AnnotationLayout
+          Text="The data flow extracts data from a file, looks up values in the CurrencyKey column in the DimCurrency table and the DateKey column in the DimDate table, and writes the data to the NewFactCurrencyRate table.&#xA;&#xA;To wrap the text in the annotation box, place the cursor where you want to start a new line and press Enter.&#xA;&#xA;If you don't add text to the annotation box, the box disappears when you click outside it. Because of this behavior, if you want to paste text in the annotation box then copy the text to the clipboard before selecting Add Annotation."
+          ParentId="Package\Foreach File in Folder\TestTask"
+          FontInfo="{assembly:Null}"
+          Size="1246.4,104"
+          Id="11fa60e4-672e-49f3-88ca-beb4cbcbdce1"
+          TopLeft="14,81" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -3399,7 +3175,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3409,7 +3185,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>

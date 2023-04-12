@@ -7,6 +7,10 @@
     <DTS:ConnectionManager
       DTS:ConnectRetryCount="1"
       DTS:ConnectRetryInterval="5"
-      DTS:ConnectionString="Data Source=DESKTOP-MCDRBR4;Initial Catalog=AdventureWorksDW2019;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Zad3-{C1C50493-124F-487D-8ED7-C58F90319911}DESKTOP-MCDRBR4.sa;" />
+      DTS:ConnectionString="Data Source=localhost,1433;User ID=sa;Initial Catalog=AdventureWorks2019;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Zad3-{C1C50493-124F-487D-8ED7-C58F90319911}DESKTOP-MCDRBR4.sa;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlVO+YuaXtEmQrjC7jtlCjAAAAAACAAAAAAAQZgAAAAEAACAAAABRD6QLPMue3DW/SA9U7iTAxuSfde9XFN4707ev9UcfpwAAAAAOgAAAAAIAACAAAAD2RuERK0ad2F+0YGjnHDO8KyJ9pTuAoo4VtPBlEEBgf4AAAAD14EWy8rzzKIHITbl1rS56NFWw06c7M3KE1nhIMuaCoxpjUzerlOvHlgMIcJTWFgYr0OyFBOuA91jSB+985UYuDz69eUgmxv0I/mbTZPlEDLoAwRJJTlt0c67X3VkdRbD5BR6Ib1qr475W0yoKYbC4R8KUf9/mBxxyIbqJSI0hm0AAAAD9Cqw1nxgZBHC4sAtG/rwUqu87r4xDqPma69ou7FxllE8LLTfQdnw+33ry7hUvRe1x/l7utObdreqqjVWd52Fn</DTS:Password>
+    </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
