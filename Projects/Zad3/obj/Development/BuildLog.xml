@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>Zad3</Name>
-    <LastWriteTime>2023-04-13T12:07:17.559003Z</LastWriteTime>
+    <LastWriteTime>2023-04-13T12:29:29.0375854Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -33,17 +33,27 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Lesson 41.dtsx</Name>
-      <LastWriteTime>2023-04-13T11:25:47.6052416Z</LastWriteTime>
+      <LastWriteTime>2023-04-13T12:17:44.8515486Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Lesson 41_fuzzylookup.dtsx</Name>
-      <LastWriteTime>2023-04-13T11:51:07.8051862Z</LastWriteTime>
+      <LastWriteTime>2023-04-13T12:20:58.0658687Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Lab5.dtsx</Name>
       <LastWriteTime>2023-04-13T12:09:42.6701323Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Lesson 4_a.dtsx</Name>
+      <LastWriteTime>2023-04-13T12:16:26.6516741Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Lesson 41_grouping.dtsx</Name>
+      <LastWriteTime>2023-04-13T12:29:56.5181415Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

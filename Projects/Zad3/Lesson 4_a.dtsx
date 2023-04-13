@@ -1,25 +1,25 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="3/16/2023 11:48:36 AM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-MCDRBR4"
   DTS:CreatorName="DESKTOP-MCDRBR4\Kuba"
-  DTS:DTSID="{5CDB67E5-E7B1-45A3-BB93-BFD6F0BAD002}"
+  DTS:DTSID="{2492791B-E6FC-4798-85D2-E6DA656F169C}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5131.0"
   DTS:LocaleID="1045"
-  DTS:ObjectName="Lesson 41"
+  DTS:ObjectName="Lesson 4_a"
   DTS:PackageType="5"
-  DTS:VersionBuild="123"
-  DTS:VersionGUID="{D04091A8-C04B-4914-BC96-40D147113C8A}">
+  DTS:VersionBuild="124"
+  DTS:VersionGUID="{598A4A28-C848-4164-BF2F-F1560AA80875}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Error Data]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{65E1C09B-BA78-4EEF-BB36-2D32DC695192}"
+      DTS:DTSID="{1E899DDB-C62F-43DA-9299-44530FCEA606}"
       DTS:ObjectName="Error Data">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -37,7 +37,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="AverageRate"
-              DTS:DTSID="{84417B8C-D473-425C-A1C1-6C31A4EC38D0}"
+              DTS:DTSID="{63456D49-327D-4FFE-904A-372DF9F0E73C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -46,7 +46,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyID"
-              DTS:DTSID="{590A0116-FC9E-42D4-8A13-1279203F16BF}"
+              DTS:DTSID="{6278D025-6456-4AB1-8151-5193A5375836}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -54,7 +54,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyDate"
-              DTS:DTSID="{A32D3A97-A87B-48FD-915A-099ED7CFA655}"
+              DTS:DTSID="{06E10BA3-9C20-4CD7-9D55-862686E1F8DD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -62,7 +62,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="EndOfDayRate"
-              DTS:DTSID="{CF0E331E-B869-4C69-808F-1269AEBD4EF7}"
+              DTS:DTSID="{DDC97C7F-D962-4843-A6BB-01A29AB1308B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -71,7 +71,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 4"
-              DTS:DTSID="{D94BB6DE-9047-4F87-A48D-B0A7B0B6D982}"
+              DTS:DTSID="{BDB6D539-A53B-4057-A3ED-A5B4E018671E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -80,7 +80,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 5"
-              DTS:DTSID="{D71C5D36-EF98-4620-B37E-A880B1779CA5}"
+              DTS:DTSID="{3D614769-BDFA-4A99-A1F1-F51A102863B9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -89,7 +89,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 6"
-              DTS:DTSID="{CBDB090B-88AF-4522-9E61-64BA669DA55F}"
+              DTS:DTSID="{A1C728B9-89C4-49C8-9CFF-094E2A343EB3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -98,7 +98,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 7"
-              DTS:DTSID="{D6766462-AD57-479A-959F-509EDD25A7EB}"
+              DTS:DTSID="{695006C7-2CEA-4EAD-AE28-F58701A37CAC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -107,7 +107,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 8"
-              DTS:DTSID="{C5642F90-2B85-494C-8D34-5C6BD96B7DFF}"
+              DTS:DTSID="{BCCC47AC-4629-4ABA-8C66-4B3CEB7E3956}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -116,7 +116,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 9"
-              DTS:DTSID="{2F4DECF5-69D8-466F-BA24-51DC3A592373}"
+              DTS:DTSID="{E7173F74-53C7-42FA-9043-AEF5E74EBDFA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -125,7 +125,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 10"
-              DTS:DTSID="{33B68FEF-E7AE-4751-91DC-5B3C6B39CAEE}"
+              DTS:DTSID="{0CD20547-197C-40D5-8FA5-A7569CBBF4D8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -134,7 +134,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 11"
-              DTS:DTSID="{E316DD6C-AE43-4BE0-86B4-A7EB8A36743D}"
+              DTS:DTSID="{FF274681-E0E8-4492-8C02-63A95A875AE8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -143,7 +143,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 12"
-              DTS:DTSID="{F378CE03-8E34-40F2-9196-04DBD6EB2D20}"
+              DTS:DTSID="{B8C42DAB-34AD-4CF8-A565-123D287B0626}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -152,7 +152,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 13"
-              DTS:DTSID="{1679D34A-D5E9-42F2-990D-01C907D1E9E5}"
+              DTS:DTSID="{11DF90EE-2E2D-4791-802C-40D0165617BE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -161,7 +161,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 14"
-              DTS:DTSID="{0C59F374-40BE-4779-B792-5ADBED081D83}"
+              DTS:DTSID="{DE5AAC35-A1BF-4EB5-9ECB-3D63691545A2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -170,7 +170,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 15"
-              DTS:DTSID="{5BBBA582-9803-4333-A433-0099F8E6B850}"
+              DTS:DTSID="{326B43CE-7B24-4BDE-B2AF-22A5761901B4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -179,7 +179,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 16"
-              DTS:DTSID="{28921F4B-8B1F-42E0-896B-53BF3B978C98}"
+              DTS:DTSID="{81AA4DFC-3709-4DC3-9D6F-DCC8F3AC0C3E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -188,7 +188,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 17"
-              DTS:DTSID="{DB76DB88-3157-4559-92B0-9221AB1CF329}"
+              DTS:DTSID="{04560021-1A5C-4DC8-AC82-A13E4D37BF92}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -197,7 +197,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 18"
-              DTS:DTSID="{F2983F78-826E-4002-987D-CDC1508DC17D}"
+              DTS:DTSID="{97D91818-4E4C-4C27-8C3A-F06C105E45D5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -206,7 +206,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 19"
-              DTS:DTSID="{8E534F53-169E-4808-8AAD-CB835E9D1E22}"
+              DTS:DTSID="{2BA91D99-BC70-436D-A1AB-8132999D2698}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -214,7 +214,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{3F525814-FBED-4407-80AF-080FA0C25372}"
+              DTS:DTSID="{80704511-969F-4C77-B6EF-5D27D5D1A38C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -222,7 +222,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{C5AAF096-75BC-4080-A5BE-71A1C01D0408}"
+              DTS:DTSID="{8EE21961-AFAE-40D8-8A90-82799FA2F820}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -231,7 +231,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorDescription"
-              DTS:DTSID="{074EF910-B648-41FB-824C-13AB193E9412}"
+              DTS:DTSID="{BDB82C59-FAFE-45C4-98D4-BF5DDA3309C7}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -240,7 +240,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Error Data 1]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{60AB54FC-DAAF-4424-A611-1EBEBFA1D262}"
+      DTS:DTSID="{AA8A3F3F-D470-4942-B9E2-841EA9918732}"
       DTS:ObjectName="Error Data 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -258,7 +258,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="AverageRate"
-              DTS:DTSID="{446C273A-43A0-43E9-BA94-4682A4D64BB3}"
+              DTS:DTSID="{48995B69-0D37-43A7-B926-EED4AE211C14}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -267,7 +267,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyID"
-              DTS:DTSID="{1410F770-2463-4F78-A844-B54F910C2E37}"
+              DTS:DTSID="{F1FCB0D0-7E3B-4527-9941-21CB2A693AC4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -275,7 +275,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyDate"
-              DTS:DTSID="{C9D61168-3F4A-4C0F-95DF-CD57EF61BA7A}"
+              DTS:DTSID="{4784F1E0-28BA-416F-BD8C-9306A0051D1E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -283,7 +283,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="EndOfDayRate"
-              DTS:DTSID="{B2D3D60F-5265-4782-9F46-944E46699521}"
+              DTS:DTSID="{D1554F7D-F562-467D-AE70-00C376FFCEAD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -292,7 +292,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 4"
-              DTS:DTSID="{0624F5F7-D76C-4F57-BB8C-7D07FECBDE56}"
+              DTS:DTSID="{48608E22-1431-479B-9A26-CC9B4043175A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -301,7 +301,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 5"
-              DTS:DTSID="{85D99C56-C668-4AC7-AF4A-66A067A8EAEE}"
+              DTS:DTSID="{0D8894B5-0600-4C69-862E-C2E542ADB106}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -310,7 +310,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 6"
-              DTS:DTSID="{6B9ADDC1-C53B-450E-8DCA-922BD2622097}"
+              DTS:DTSID="{C8D14DD1-74DD-4EBD-98DD-4FE937F1E4B5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -319,7 +319,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 7"
-              DTS:DTSID="{8CBE8B02-B7DE-48E3-8FE6-401853C7C2A5}"
+              DTS:DTSID="{F75F9DE3-D4BF-49FF-8DF5-2F0ECD9CF2CE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -328,7 +328,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 8"
-              DTS:DTSID="{AAB60660-6338-4E37-8A2A-ED478FE5ED8D}"
+              DTS:DTSID="{D405CCAA-0C46-4A6B-AE6C-CFD1915E8188}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -337,7 +337,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 9"
-              DTS:DTSID="{7A2F1783-428F-4521-B819-50FEAEC6801C}"
+              DTS:DTSID="{CD25D476-5021-4036-B6BE-3874F9D5F951}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -346,7 +346,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 10"
-              DTS:DTSID="{3BC2029D-589A-4A2D-AC23-702249AA08AB}"
+              DTS:DTSID="{CB979AF4-C505-4414-9988-02CD6AD402D9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -355,7 +355,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 11"
-              DTS:DTSID="{E5325F82-0197-4901-A7C6-CEC851EEA613}"
+              DTS:DTSID="{87AEC5D7-010B-4DDA-BC1A-593E086F155F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -364,7 +364,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 12"
-              DTS:DTSID="{D7B8DC04-5DEA-46C6-BF3A-DB909128E21C}"
+              DTS:DTSID="{51CA5385-217E-4A6E-882E-83284A4D8C59}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -373,7 +373,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 13"
-              DTS:DTSID="{DD3E03BF-4829-40F1-8227-DF681FE53EE3}"
+              DTS:DTSID="{3CDB04BC-26C3-4CD3-93A7-01F04E6E877A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -382,7 +382,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 14"
-              DTS:DTSID="{2F15972F-20EF-4191-8CED-1040581ED508}"
+              DTS:DTSID="{7E2220D3-8B9A-49F1-88F7-BE6D30458345}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -391,7 +391,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 15"
-              DTS:DTSID="{0B57B552-F3A5-4358-B926-31B4C9FCB293}"
+              DTS:DTSID="{46B6FF51-F613-4781-BDB3-6E5393708532}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -400,7 +400,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 16"
-              DTS:DTSID="{00CE080A-0528-4832-B68B-5FA310348343}"
+              DTS:DTSID="{15C68E08-2446-48F7-A368-7D7FD4FD3E30}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -409,7 +409,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 17"
-              DTS:DTSID="{03C78E87-F655-4C47-866D-04E224883869}"
+              DTS:DTSID="{64510E1D-CBDF-46C1-971D-2B99E5321D81}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -418,7 +418,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 18"
-              DTS:DTSID="{7CE81159-D1B7-4F94-A6A3-22D6EE699AFC}"
+              DTS:DTSID="{A6335164-A469-4043-9B39-391EE909A3B7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -427,7 +427,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 19"
-              DTS:DTSID="{472122A6-3009-4ECC-8FCC-365A568172D8}"
+              DTS:DTSID="{ADC430B9-37B1-4BB9-9107-B089AE6E6107}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -435,7 +435,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{6E94678F-E220-41FF-9DB1-D002B4789D34}"
+              DTS:DTSID="{F01763F0-42A3-4EA0-B6E8-D093B0BE0902}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -443,7 +443,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{AE2C4A7D-D2EB-4F1C-A858-F4083B66B37D}"
+              DTS:DTSID="{C9002A70-2ABA-491B-92A7-803E6510AD36}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -452,7 +452,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorDescription"
-              DTS:DTSID="{4DB0C7CB-DED7-4943-BDA3-28A3E37091CC}"
+              DTS:DTSID="{D346D482-9AAC-458A-854E-4B3E14CEB3BE}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -461,7 +461,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{EFEBE2F9-18A2-44DC-AD4E-0A8F3E25136C}"
+      DTS:DTSID="{6528B1D7-484E-4505-8500-FE90E5144E21}"
       DTS:ObjectName="Flat File Connection Manager">
       <DTS:PropertyExpression
         DTS:Name="ConnectionString">@[User::varFileName]</DTS:PropertyExpression>
@@ -480,7 +480,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="AverageRate"
-              DTS:DTSID="{67E4888F-9D01-476D-A30F-2977E0560116}"
+              DTS:DTSID="{B7812A61-51B5-4E99-A58C-0AE1B91988CA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -489,7 +489,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyID"
-              DTS:DTSID="{39D48E20-F5DB-451B-86DC-E2B21EBF0689}"
+              DTS:DTSID="{135CAB58-6786-4DB0-9BF0-F946FB1FEC84}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -497,7 +497,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyDate"
-              DTS:DTSID="{206DC0A2-0482-4E4A-B092-09BCDF38F767}"
+              DTS:DTSID="{F9C6DAFD-87F6-42BE-8112-2AE283F14F08}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -505,7 +505,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="EndOfDayRate"
-              DTS:DTSID="{68B57B97-FA42-4909-A5C6-02B444F0A274}"
+              DTS:DTSID="{60291994-8F49-4AE8-847C-E03FF183B031}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -514,7 +514,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 4"
-              DTS:DTSID="{DDD6B072-6630-4FBE-9F0B-2C4E684B4592}"
+              DTS:DTSID="{ACD3E770-71AF-4E65-9489-0144314E4E0A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -523,7 +523,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 5"
-              DTS:DTSID="{A7672232-8B2A-4B71-9B9A-DC80F68245E6}"
+              DTS:DTSID="{985B308A-5CE9-4EEA-A143-11A1CE82784C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -532,7 +532,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 6"
-              DTS:DTSID="{FAA2552E-B1A9-428B-8DA2-948A684F7D0D}"
+              DTS:DTSID="{C2BF5A90-EB2C-430C-96D1-AC582B6007DD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -541,7 +541,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 7"
-              DTS:DTSID="{678D95ED-DCE2-4C30-8F17-A006B4E91E5E}"
+              DTS:DTSID="{1DCAD7A7-4111-4538-80E7-A4A3365D8655}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -550,7 +550,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 8"
-              DTS:DTSID="{FBCA0A12-1815-47CF-9AEF-4789ECC7F3C2}"
+              DTS:DTSID="{125F2861-DBB8-44B0-9BC1-55603E46C6DC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -559,7 +559,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 9"
-              DTS:DTSID="{B3E5529C-C610-44C1-8FEF-ECE523509102}"
+              DTS:DTSID="{1F3A78DC-9ECB-488E-B42B-D02FA94F2134}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -568,7 +568,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 10"
-              DTS:DTSID="{668EFF23-8CD6-4EC7-9E2D-087B715A44BB}"
+              DTS:DTSID="{AE1F36DF-1146-43C0-8B32-25C5E4ACD021}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -577,7 +577,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 11"
-              DTS:DTSID="{CFA17933-0ABC-48B7-AB90-E7A5F751356B}"
+              DTS:DTSID="{5CA74B31-E4FF-43B6-9637-80D65EE09DA3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -586,7 +586,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 12"
-              DTS:DTSID="{710190B8-7FC6-43BE-BD1D-AE897EEF1C0B}"
+              DTS:DTSID="{B0F54C27-DA35-483C-803E-4A4DB94FF8EE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -595,7 +595,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 13"
-              DTS:DTSID="{716D79DB-C73D-4FE8-8715-D14021F15761}"
+              DTS:DTSID="{2464A436-B162-4AD5-B497-606BB9770696}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -604,7 +604,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 14"
-              DTS:DTSID="{091F6468-F62C-4C65-8F01-FD77BE1A29A0}"
+              DTS:DTSID="{C82D3CE0-64CE-4DCD-A4A0-5F089A55A2A6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -613,7 +613,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 15"
-              DTS:DTSID="{32B22041-25FF-4245-9916-2E8C2F8D675F}"
+              DTS:DTSID="{DB8B49A5-62BF-4D89-814C-43B82FCF86F0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -622,7 +622,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 16"
-              DTS:DTSID="{9DD67B4A-A4AC-4597-B208-D9172A3605F9}"
+              DTS:DTSID="{5F67CAD6-BD38-4ACF-A4D9-E0F6C40C9858}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -631,7 +631,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 17"
-              DTS:DTSID="{764586B8-59D4-4B60-8F3C-3F14788BDB37}"
+              DTS:DTSID="{B2084D31-4A22-440C-B4BD-09B5AC604D16}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -640,7 +640,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 18"
-              DTS:DTSID="{08D19B2F-1987-4CC1-BA37-2757E819D0E2}"
+              DTS:DTSID="{E0F882D0-19C4-4ED5-A0F0-260ADED08E68}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -649,7 +649,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Column 19"
-              DTS:DTSID="{0175102C-67EB-424D-B080-50F995E74A58}"
+              DTS:DTSID="{04D1A552-657A-4278-9363-2AEF7EFB7EE8}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -658,7 +658,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[LogFileLesson3]"
       DTS:CreationName="FILE"
-      DTS:DTSID="{FB954523-529A-43AF-AB41-69EC1711EF19}"
+      DTS:DTSID="{2BD132D6-9522-4019-B774-40704BAA325F}"
       DTS:ObjectName="LogFileLesson3">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -672,7 +672,7 @@
       DTS:ConfigString="LogFileLesson3"
       DTS:CreationName="Microsoft.LogProviderTextFile"
       DTS:Description="Writes log entries for events to a CSV file"
-      DTS:DTSID="{92852992-0445-424E-9A30-79A3CDD9C674}"
+      DTS:DTSID="{0FB6A4E1-0544-4B6D-9DEF-F00D48CC1302}"
       DTS:ObjectName="Lesson3 log file">
       <DTS:ObjectData>
         <InnerObject />
@@ -683,7 +683,7 @@
     <DTS:PackageParameter
       DTS:CreationName=""
       DTS:DataType="8"
-      DTS:DTSID="{023E31B0-F762-41AA-840B-FDA0C8BAEA80}"
+      DTS:DTSID="{5B107212-843A-4346-9A58-EE9941D61F19}"
       DTS:ObjectName="TestTask_CurrencyKeySqlCommand">
       <DTS:Property
         DTS:DataType="8"
@@ -695,7 +695,7 @@ WHERE        (CurrencyAlternateKey IN ('ARS', 'AUD', 'BRL', 'CAD', 'CNY', 'DEM',
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{993998CA-AC23-4961-A41D-62BC8A148C98}"
+      DTS:DTSID="{FE575764-C790-48D0-AA99-4C9E3F0888EC}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="Counter">
@@ -704,7 +704,7 @@ WHERE        (CurrencyAlternateKey IN ('ARS', 'AUD', 'BRL', 'CAD', 'CNY', 'DEM',
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{F59F3E8A-E276-4056-95C7-E2D15F4C0C78}"
+      DTS:DTSID="{F1388820-026E-4D47-B8E8-942C77E590B9}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="FileAmount">
@@ -713,7 +713,7 @@ WHERE        (CurrencyAlternateKey IN ('ARS', 'AUD', 'BRL', 'CAD', 'CNY', 'DEM',
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{F318815F-6933-4C76-AC19-FBD57291CBD3}"
+      DTS:DTSID="{D87FFBED-FADA-4511-91EE-AAF5F3F34F90}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="files">
@@ -731,7 +731,7 @@ WHERE        (CurrencyAlternateKey IN ('ARS', 'AUD', 'BRL', 'CAD', 'CNY', 'DEM',
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{A2EBC12D-3A03-4DA2-B1D1-1A8FB964E6C7}"
+      DTS:DTSID="{4D354E91-D5D8-4AA1-85FC-8FAD790F27B2}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="varFileName">
@@ -741,7 +741,7 @@ WHERE        (CurrencyAlternateKey IN ('ARS', 'AUD', 'BRL', 'CAD', 'CNY', 'DEM',
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{DE9A4A8E-D7CA-45CF-8052-9217F552A163}"
+      DTS:DTSID="{6213DD01-B71C-46D3-B8DF-DDBB0E286B41}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="Variable">
@@ -759,7 +759,7 @@ WHERE        (CurrencyAlternateKey IN ('ARS', 'AUD', 'BRL', 'CAD', 'CNY', 'DEM',
       DTS:AssignExpression="@Counter = @Counter + 1"
       DTS:CreationName="STOCK:FORLOOP"
       DTS:Description="For Loop Container"
-      DTS:DTSID="{3D8D1B70-B9CA-41B7-9AB2-6D5CE5AFBA6E}"
+      DTS:DTSID="{171592C0-329D-490B-97A4-B4E1B94F1643}"
       DTS:EvalExpression="@Counter &lt; @FileAmount"
       DTS:ExecutableType="STOCK:FORLOOP"
       DTS:InitExpression="@Counter = 0"
@@ -772,7 +772,7 @@ WHERE        (CurrencyAlternateKey IN ('ARS', 'AUD', 'BRL', 'CAD', 'CNY', 'DEM',
           DTS:refId="Package\For Loop Container\Script Task 1"
           DTS:CreationName="Microsoft.ScriptTask"
           DTS:Description="Script Task"
-          DTS:DTSID="{77ff7167-9fe6-4b06-b5ea-29115faf0aea}"
+          DTS:DTSID="{29C811F1-9477-45C0-8778-4966409DC403}"
           DTS:ExecutableType="Microsoft.ScriptTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Script Task 1"
@@ -1396,7 +1396,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           DTS:refId="Package\For Loop Container\TestTask"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Data Flow Task"
-          DTS:DTSID="{032BEA28-A9B2-4857-98F9-FC6AC9BA1F7B}"
+          DTS:DTSID="{793B8FF3-79B8-4319-A424-FBC9BF627239}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="1033"
           DTS:ObjectName="TestTask"
@@ -1446,7 +1446,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </DTS:Property>
             <DTS:SelectedLogProviders>
               <DTS:SelectedLogProvider
-                DTS:InstanceID="{92852992-0445-424E-9A30-79A3CDD9C674}" />
+                DTS:InstanceID="{0FB6A4E1-0544-4B6D-9DEF-F00D48CC1302}" />
             </DTS:SelectedLogProviders>
           </DTS:LoggingOptions>
           <DTS:ObjectData>
@@ -2059,1477 +2059,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                           lineageId="Package\For Loop Container\TestTask\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-                <component
-                  refId="Package\For Loop Container\TestTask\Fuzzy Grouping"
-                  componentClassID="Microsoft.FuzzyGrouping"
-                  contactInfo="Fuzzy Grouping;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;3"
-                  description="Identifies potential duplicate rows and helps standardize the data by selecting canonical replacements. For example, reduce the occurrences of typos in a 'company name' column by referencing an approved list of company names."
-                  name="Fuzzy Grouping"
-                  version="3">
-                  <properties>
-                    <property
-                      dataType="System.Single"
-                      description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                      name="MinSimilarity">0.6</property>
-                    <property
-                      dataType="System.String"
-                      description="Specifies the white-space and punctuation characters used to separate strings into multiple words."
-                      name="Delimiters"> 	
-,.;:-"'&amp;/\@!?()&lt;&gt;[]{}|#*^%</property>
-                    <property
-                      dataType="System.Null"
-                      description="Specifies the maximum amount of memory (MB) that transform should use.  A value of 0 will enable dynamic memory usage based upon requirements and available system memory."
-                      expressionType="Notify"
-                      name="MaxMemoryUsage" />
-                    <property
-                      dataType="System.Boolean"
-                      description="If true, each input record will be directly compared against EVERY other input record.  This may produce slightly better results, but will be extremely slow unless the number of input records is very small.  This option is primarily intended for debugging purposes and should be used with care."
-                      name="Exhaustive">false</property>
-                  </properties>
-                  <connections>
-                    <connection
-                      refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Connections[OleDbConnection]"
-                      connectionManagerID="{C1C50493-124F-487D-8ED7-C58F90319911}:external"
-                      connectionManagerRefId="Project.ConnectionManagers[DESKTOP-MCDRBR4.sa]"
-                      name="OleDbConnection" />
-                  </connections>
-                  <inputs>
-                    <input
-                      refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input]"
-                      name="Fuzzy Grouping Input">
-                      <inputColumns>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[AverageRate]"
-                          cachedDataType="r4"
-                          cachedName="AverageRate"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[AverageRate]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[CurrencyID]"
-                          cachedDataType="wstr"
-                          cachedLength="50"
-                          cachedName="CurrencyID"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyID]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">true</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">196611</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[CurrencyDate]"
-                          cachedDataType="dbDate"
-                          cachedName="CurrencyDate"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyDate]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[EndOfDayRate]"
-                          cachedDataType="r4"
-                          cachedName="EndOfDayRate"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[EndOfDayRate]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 4]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 4"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 4]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 5]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 5"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 5]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 6]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 6"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 6]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 7]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 7"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 7]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 8]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 8"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 8]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 9]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 9"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 9]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 10]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 10"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 10]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 11]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 11"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 11]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 12]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 12"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 12]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 13]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 13"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 13]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 14]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 14"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 14]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 15]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 15"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 15]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 16]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 16"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 16]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 17]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 17"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 17]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 18]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 18"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 18]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[Column 19]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="Column 19"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 19]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[CurrencyAlternateKey]"
-                          cachedDataType="wstr"
-                          cachedLength="3"
-                          cachedName="CurrencyAlternateKey"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyAlternateKey]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[CurrencyName]"
-                          cachedDataType="wstr"
-                          cachedLength="50"
-                          cachedName="CurrencyName"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyName]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[_Similarity]"
-                          cachedDataType="r4"
-                          cachedName="_Similarity"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[_Similarity]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[_Confidence]"
-                          cachedDataType="r4"
-                          cachedName="_Confidence"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[_Confidence]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[_Similarity_CurrencyID]"
-                          cachedDataType="r4"
-                          cachedName="_Similarity_CurrencyID"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[_Similarity_CurrencyID]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                        <inputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input].Columns[CurrencyKey]"
-                          cachedDataType="i4"
-                          cachedName="CurrencyKey"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyKey]">
-                          <properties>
-                            <property
-                              dataType="System.Boolean"
-                              description="Indicates whether to use the column to determine if two records are similar."
-                              name="ToBeCleaned">false</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies whether rows must be exact matches or fuzzy matches to be considered duplicates."
-                              name="ExactFuzzy"
-                              typeConverter="tcJoinType">2</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the hint that causes similar rows that contain differing leading or trailing numeric values be less likely to be considered duplicates."
-                              name="LeadingTrailingNumeralsSignificant"
-                              typeConverter="tcNumeralsSignificant">0</property>
-                            <property
-                              dataType="System.Single"
-                              description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                              name="MinSimilarity">0</property>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies how string data in a column is compared."
-                              name="FuzzyComparisonFlags"
-                              typeConverter="tcComparisonFlags">1</property>
-                          </properties>
-                        </inputColumn>
-                      </inputColumns>
-                      <externalMetadataColumns />
-                    </input>
-                  </inputs>
-                  <outputs>
-                    <output
-                      refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output]"
-                      name="Fuzzy Grouping Output">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_key_in]"
-                          dataType="i4"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_key_in]"
-                          name="_key_in">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">1</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\-1:invalid}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_key_out]"
-                          dataType="i4"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_key_out]"
-                          name="_key_out">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">2</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\-1:invalid}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_score]"
-                          dataType="r4"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_score]"
-                          name="_score">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">3</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\-1:invalid}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[AverageRate]"
-                          dataType="r4"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[AverageRate]"
-                          name="AverageRate">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[AverageRate]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[CurrencyID]"
-                          dataType="wstr"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[CurrencyID]"
-                          name="CurrencyID">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyID]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[CurrencyDate]"
-                          dataType="dbDate"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[CurrencyDate]"
-                          name="CurrencyDate">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyDate]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[EndOfDayRate]"
-                          dataType="r4"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[EndOfDayRate]"
-                          name="EndOfDayRate">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[EndOfDayRate]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 4]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 4]"
-                          name="Column 4">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 4]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 5]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 5]"
-                          name="Column 5">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 5]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 6]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 6]"
-                          name="Column 6">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 6]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 7]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 7]"
-                          name="Column 7">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 7]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 8]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 8]"
-                          name="Column 8">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 8]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 9]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 9]"
-                          name="Column 9">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 9]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 10]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 10]"
-                          name="Column 10">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 10]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 11]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 11]"
-                          name="Column 11">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 11]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 12]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 12]"
-                          name="Column 12">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 12]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 13]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 13]"
-                          name="Column 13">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 13]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 14]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 14]"
-                          name="Column 14">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 14]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 15]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 15]"
-                          name="Column 15">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 15]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 16]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 16]"
-                          name="Column 16">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 16]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 17]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 17]"
-                          name="Column 17">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 17]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 18]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 18]"
-                          name="Column 18">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 18]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 19]"
-                          codePage="1252"
-                          dataType="str"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[Column 19]"
-                          name="Column 19">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[Column 19]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[CurrencyAlternateKey]"
-                          dataType="wstr"
-                          length="3"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[CurrencyAlternateKey]"
-                          name="CurrencyAlternateKey">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyAlternateKey]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[CurrencyName]"
-                          dataType="wstr"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[CurrencyName]"
-                          name="CurrencyName">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyName]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_Similarity]"
-                          dataType="r4"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_Similarity]"
-                          name="_Similarity">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[_Similarity]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_Confidence]"
-                          dataType="r4"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_Confidence]"
-                          name="_Confidence">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[_Confidence]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[CurrencyID_clean]"
-                          dataType="wstr"
-                          length="50"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[CurrencyID_clean]"
-                          name="CurrencyID_clean">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">6</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyID]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_Similarity_CurrencyID]"
-                          dataType="r4"
-                          description="Column-level similarity score for fuzzy join on column &quot;CurrencyID&quot;."
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[_Similarity_CurrencyID]"
-                          name="_Similarity_CurrencyID">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">4</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyID]}</property>
-                          </properties>
-                        </outputColumn>
-                        <outputColumn
-                          refId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[CurrencyKey]"
-                          dataType="i4"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[CurrencyKey]"
-                          name="CurrencyKey">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Specifies the column type. The valid values are Canonical, ColumnSimilarity, KeyIn, KeyOut, PassThru, Similarity and Undefined."
-                              name="ColumnType"
-                              typeConverter="tcColumnType">5</property>
-                            <property
-                              containsID="true"
-                              dataType="System.Int32"
-                              description="Specifies the ID of the input column. The value must be a positive integer."
-                              name="InputId">#{Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyKey]}</property>
-                          </properties>
-                        </outputColumn>
                       </outputColumns>
                       <externalMetadataColumns />
                     </output>
@@ -4989,25 +3518,25 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                           cachedDataType="r4"
                           cachedName="AverageRate"
                           externalMetadataColumnId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AverageRate]"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[AverageRate]" />
+                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[AverageRate]" />
                         <inputColumn
                           refId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[EndOfDayRate]"
                           cachedDataType="r4"
                           cachedName="EndOfDayRate"
                           externalMetadataColumnId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[EndOfDayRate]"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[EndOfDayRate]" />
+                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[EndOfDayRate]" />
                         <inputColumn
                           refId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CurrencyKey]"
                           cachedDataType="i4"
                           cachedName="CurrencyKey"
                           externalMetadataColumnId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CurrencyKey]"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[CurrencyKey]" />
+                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyKey]" />
                         <inputColumn
                           refId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CurrencyDate]"
                           cachedDataType="dbDate"
                           cachedName="CurrencyDate"
                           externalMetadataColumnId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CurrencyDate]"
-                          lineageId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output].Columns[CurrencyDate]" />
+                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyDate]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
@@ -5107,13 +3636,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                   name="Flat File Source Output"
                   startId="Package\For Loop Container\TestTask\Flat File Source.Outputs[Flat File Source Output]" />
                 <path
-                  refId="Package\For Loop Container\TestTask.Paths[Fuzzy Grouping Output]"
-                  endId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input]"
-                  name="Fuzzy Grouping Output"
-                  startId="Package\For Loop Container\TestTask\Fuzzy Grouping.Outputs[Fuzzy Grouping Output]" />
-                <path
                   refId="Package\For Loop Container\TestTask.Paths[Fuzzy Lookup Output]"
-                  endId="Package\For Loop Container\TestTask\Fuzzy Grouping.Inputs[Fuzzy Grouping Input]"
+                  endId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input]"
                   name="Fuzzy Lookup Output"
                   startId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output]" />
               </paths>
@@ -5125,7 +3649,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <DTS:PrecedenceConstraint
           DTS:refId="Package\For Loop Container.PrecedenceConstraints[Constraint]"
           DTS:CreationName=""
-          DTS:DTSID="{49913A35-8091-42F3-88FB-D35FCE031856}"
+          DTS:DTSID="{B02E4978-EB8C-4439-9A6F-27082B71C9AE}"
           DTS:From="Package\For Loop Container\Script Task 1"
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint"
@@ -5136,7 +3660,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       DTS:refId="Package\Script Task"
       DTS:CreationName="Microsoft.ScriptTask"
       DTS:Description="Script Task"
-      DTS:DTSID="{90020572-E621-465C-9407-858D891EAD7A}"
+      DTS:DTSID="{D69950BC-DA0A-45F0-9399-F39B70B23088}"
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Script Task"
@@ -5758,7 +4282,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
-      DTS:DTSID="{3E905216-59BB-4AEB-8B87-CF29A1C9D2D7}"
+      DTS:DTSID="{148FB904-9EDA-48CE-A899-88833E39A983}"
       DTS:From="Package\Script Task"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
@@ -5858,7 +4382,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     design-time-name="Package\For Loop Container\TestTask">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="143.2,41.6"
+          Id="Package\For Loop Container\TestTask\Fuzzy Lookup"
+          TopLeft="216.500595512373,271.782912773531" />
         <NodeLayout
           Size="209.6,41.6"
           Id="Package\For Loop Container\TestTask\Sample OLE DB Destination"
@@ -5867,6 +4395,40 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Size="217.6,41.6"
           Id="Package\For Loop Container\TestTask\Flat File Source"
           TopLeft="208.333334517148,181.066667166882" />
+        <EdgeLayout
+          Id="Package\For Loop Container\TestTask.Paths[Flat File Source Output]"
+          TopLeft="317.133334517148,222.666667166882">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-29.0327390047754,49.1162456066494"
+              Start="0,0"
+              End="-29.0327390047754,41.6162456066494">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.5581228033247" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.5581228033247"
+                    Point2="0,24.5581228033247"
+                    Point3="-4,24.5581228033247" />
+                  <mssgle:LineSegment
+                    End="-25.0327390047754,24.5581228033247" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-25.0327390047754,24.5581228033247"
+                    Point2="-29.0327390047754,24.5581228033247"
+                    Point3="-29.0327390047754,28.5581228033247" />
+                  <mssgle:LineSegment
+                    End="-29.0327390047754,41.6162456066494" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <AnnotationLayout
           Text="The data flow extracts data from a file, looks up values in the CurrencyKey column in the DimCurrency table and the DateKey column in the DimDate table, and writes the data to the NewFactCurrencyRate table.&#xA;&#xA;To wrap the text in the annotation box, place the cursor where you want to start a new line and press Enter.&#xA;&#xA;If you don't add text to the annotation box, the box disappears when you click outside it. Because of this behavior, if you want to paste text in the annotation box then copy the text to the clipboard before selecting Add Annotation."
           ParentId="Package\For Loop Container\TestTask"
@@ -5874,102 +4436,32 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Size="1246.4,104"
           Id="11fa60e4-672e-49f3-88ca-beb4cbcbdce1"
           TopLeft="31.4999990438422,81" />
-        <NodeLayout
-          Size="152,41.6"
-          Id="Package\For Loop Container\TestTask\Fuzzy Grouping"
-          TopLeft="97.3339386349406,275.449579831933" />
-        <EdgeLayout
-          Id="Package\For Loop Container\TestTask.Paths[Fuzzy Grouping Output]"
-          TopLeft="173.333938634941,317.049579831933">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="150.632728623633,117.617087768871"
-              Start="0,0"
-              End="150.632728623633,110.117087768871">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,54.8085438844356" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,54.8085438844356"
-                    Point2="0,58.8085438844356"
-                    Point3="4,58.8085438844356" />
-                  <mssgle:LineSegment
-                    End="146.632728623633,58.8085438844356" />
-                  <mssgle:CubicBezierSegment
-                    Point1="146.632728623633,58.8085438844356"
-                    Point2="150.632728623633,58.8085438844356"
-                    Point3="150.632728623633,62.8085438844356" />
-                  <mssgle:LineSegment
-                    End="150.632728623633,110.117087768871" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="143.2,41.6"
-          Id="Package\For Loop Container\TestTask\Fuzzy Lookup"
-          TopLeft="37.3339386349406,215.449579831933" />
-        <EdgeLayout
-          Id="Package\For Loop Container\TestTask.Paths[Flat File Source Output]"
-          TopLeft="208.333334517148,201.866667166882">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-27.7993958822074,28.7829126650508"
-              Start="0,0"
-              End="-20.2993958822074,28.7829126650508">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-12.0618731763865,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-12.0618731763865,0"
-                    Point2="-16.0618731763865,0"
-                    Point3="-16.0618731763865,4" />
-                  <mssgle:LineSegment
-                    End="-16.0618731763865,24.7829126650508" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-16.0618731763865,24.7829126650508"
-                    Point2="-16.0618731763865,28.7829126650508"
-                    Point3="-20.0618731763865,28.7829126650508" />
-                  <mssgle:LineSegment
-                    End="-20.2993958822074,28.7829126650508" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\For Loop Container\TestTask.Paths[Fuzzy Lookup Output]"
-          TopLeft="180.533938634941,241.849579831933">
+          TopLeft="288.100595512373,313.382912773531">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-7.19999999999999,33.6"
+              EndConnector="35.8660717462014,121.283754827273"
               Start="0,0"
-              End="-7.19999999999999,26.1">
+              End="35.8660717462014,113.783754827273">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-3.19999999999999,0" />
+                    End="0,56.6418774136363" />
                   <mssgle:CubicBezierSegment
-                    Point1="-3.19999999999999,0"
-                    Point2="-7.19999999999999,0"
-                    Point3="-7.19999999999999,4" />
+                    Point1="0,56.6418774136363"
+                    Point2="0,60.6418774136363"
+                    Point3="4,60.6418774136363" />
                   <mssgle:LineSegment
-                    End="-7.19999999999999,26.1" />
+                    End="31.8660717462014,60.6418774136363" />
+                  <mssgle:CubicBezierSegment
+                    Point1="31.8660717462014,60.6418774136363"
+                    Point2="35.8660717462014,60.6418774136363"
+                    Point3="35.8660717462014,64.6418774136363" />
+                  <mssgle:LineSegment
+                    End="35.8660717462014,113.783754827273" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

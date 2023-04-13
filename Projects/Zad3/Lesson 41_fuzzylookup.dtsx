@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Lesson 41"
   DTS:PackageType="5"
-  DTS:VersionBuild="120"
-  DTS:VersionGUID="{5BF4AB99-377D-4148-A6F4-4C26A6072F15}">
+  DTS:VersionBuild="122"
+  DTS:VersionGUID="{D6AA0DC3-7C4B-4BDF-A667-C6982643DCD1}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2055,6 +2055,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                               name="CopyFromReferenceColumn"
                               state="escaped">CurrencyKey</property>
                             <property
+                              containsID="true"
                               dataType="System.Null"
                               description="Specifies the lineage identifier of the input column from which to copy to this output column for each match."
                               name="SourceInputColumnLineageID" />
@@ -2136,7 +2137,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                     <property
                       dataType="System.String"
                       description="Specifies the name of the database object used to open a rowset."
-                      name="OpenRowset">[TestFuzzyLookup]</property>
+                      name="OpenRowset">[NewTest123]</property>
                     <property
                       dataType="System.String"
                       description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -2216,6 +2217,38 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                           cachedName="CurrencyKey"
                           externalMetadataColumnId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CurrencyKey]"
                           lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyKey]" />
+                        <inputColumn
+                          refId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CurrencyAlternateKey]"
+                          cachedDataType="wstr"
+                          cachedLength="3"
+                          cachedName="CurrencyAlternateKey"
+                          externalMetadataColumnId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CurrencyAlternateKey]"
+                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyAlternateKey]" />
+                        <inputColumn
+                          refId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CurrencyID]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="CurrencyID"
+                          externalMetadataColumnId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CurrencyID]"
+                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[CurrencyID]" />
+                        <inputColumn
+                          refId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[_Similarity]"
+                          cachedDataType="r4"
+                          cachedName="_Similarity"
+                          externalMetadataColumnId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[_Similarity]"
+                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[_Similarity]" />
+                        <inputColumn
+                          refId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[_Similarity_CurrencyID]"
+                          cachedDataType="r4"
+                          cachedName="_Similarity_CurrencyID"
+                          externalMetadataColumnId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[_Similarity_CurrencyID]"
+                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[_Similarity_CurrencyID]" />
+                        <inputColumn
+                          refId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].Columns[_Confidence]"
+                          cachedDataType="r4"
+                          cachedName="_Confidence"
+                          externalMetadataColumnId="Package\For Loop Container\TestTask\Sample OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[_Confidence]"
+                          lineageId="Package\For Loop Container\TestTask\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[_Confidence]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
@@ -3027,7 +3060,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     design-time-name="Package\For Loop Container\TestTask">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="209.6,41.6"
           Id="Package\For Loop Container\TestTask\Sample OLE DB Destination"
@@ -3071,7 +3104,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="115.433333629287,108.383333800402,16,16"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
