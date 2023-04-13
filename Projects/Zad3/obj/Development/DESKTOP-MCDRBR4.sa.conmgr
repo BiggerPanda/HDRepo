@@ -10,7 +10,7 @@
       DTS:ConnectionString="Data Source=localhost,1433;User ID=sa;Initial Catalog=AdventureWorks2019;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Zad3-{C1C50493-124F-487D-8ED7-C58F90319911}DESKTOP-MCDRBR4.sa;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlVO+YuaXtEmQrjC7jtlCjAAAAAACAAAAAAAQZgAAAAEAACAAAAAK4HcFEy2STW3B/p5vjl+gej4atTrbwMJocDsURDbtWwAAAAAOgAAAAAIAACAAAABK+67m4G/Ivm5rXX3UdaywJm5pCHVQZMxz2Y4c8JcdaYAAAAC+4Wq1CKIc6zb9oPqTPh5jnLDp45YuBZQLSnYnj3JBvIJf1wS6SD62zEXElkOHjjloD88uz7rxLwyDRXOJY47a9igNYL6/YQ1ujt97OqoWacb4XQSG4FN9q4k+ebR3/iJdjqsqwSFOm6O8jzr0bUp2COb/22kj5eLj+R7Pmmn1pkAAAAB0cwtJ9JOxxUlWZn7FnXYl2vCmeOZcETO5jeredMFuXqGYk9a/vZJ9Jw0s+0jFq4NEJM+94f9Q0xC7jaHRZnpq</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlVO+YuaXtEmQrjC7jtlCjAAAAAACAAAAAAAQZgAAAAEAACAAAACoRDqafloenFRs/F7Mt+noxokLwtJDhA6Z3GTpYhuUwwAAAAAOgAAAAAIAACAAAACpXPqWY06NGZahOCxlpXod3Ypwf4+twtKg7lf/i5M/7oAAAAA88T9ShkKATs6VFaBKaNF0UAztCLyEb0DmZtaiFUxy1luglNXdq1Wyk/cNFLNCkvjKioiRAvFsdJy7TcOb4wxcNB2Ze4NiwexSspf1JSrQXwsrp0/qNRuAh76yj8DPcGj6fkobXd3NoQJrDt/5gfP/A1P40EN1+XvqJoDZu6Ss8UAAAAC7y6mxrU/jk1xl43oTu9y8wrSXmk4ze9yri7rka9B9dDGqkjpMAbmPriyPmWGRuAIkf56U0Wp2LUWRO9OpNDIg</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

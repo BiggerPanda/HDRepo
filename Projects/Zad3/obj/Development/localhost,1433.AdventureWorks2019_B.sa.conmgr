@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost,1433.AdventureWorks2019_B.sa"
+  DTS:DTSID="{04702B3A-B6A0-4CAA-A63D-153516CCC599}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost,1433;User ID=sa;Initial Catalog=AdventureWorks2019_B;Provider=MSOLEDBSQL.1;Persist Security Info=True;Application Name=SSIS-Zad3-{04702B3A-B6A0-4CAA-A63D-153516CCC599}localhost,1433.AdventureWorks2019_B.sa;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlVO+YuaXtEmQrjC7jtlCjAAAAAACAAAAAAAQZgAAAAEAACAAAACjSVKTszKVBVESLhWPpkg6dIxEWa0R5YUTb6cW1/6/WgAAAAAOgAAAAAIAACAAAABX3Hog9tCgn2LrirfypEEZirlPrrVhsBiwkUj2AfOanIAAAADFa6iJFq/HJKmU/xsKTiq0i7Ssl+XBKfkrKdFpGAvvPnVFPICqU/5nMSNcZaCMMhKUcaG+X2+xUt8UWPJvoN3saMb3MiO+utgfbi2b6t9WQLwl9FeuylLX74dhlWJkEMZEC7P5IdWZ5m8DDLIcNZxRKC5Kt+YnmByzYFiCixFgtUAAAABrMs60cKTlkRJ1GSAc2toDLB/K/2D03HhZYasaezOkKcteSaNj78kzQA6jklEQZrTTWDMFlGqKHsLUdYAilfp/</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
